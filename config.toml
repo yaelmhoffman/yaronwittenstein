@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Yaron Wittenstein's Personal Site"
 theme = "hugo-lithium-theme"
-googleAnalytics = ""
+googleAnalytics = "UA-148359158-1"
 disqusShortname = ""
 disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
 
