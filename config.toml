@@ -1,7 +1,7 @@
 baseURL = "https://yaronwittenstein.netlify.com"
 languageCode = "en-us"
 title = "Yaron Wittenstein's Personal Site"
-theme = "ghostwriter"
+theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
 disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
