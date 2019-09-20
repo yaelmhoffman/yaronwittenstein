@@ -19,7 +19,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
     weight = 1
 [[menu.main]]
     name = "Newsletter"
-    url = "http://read-it-or-throw-it.blogspot.com"
+    url = "https://read-it-or-throw-it.com"
     weight = 2
 [[menu.main]]
     name = "GitHub"
