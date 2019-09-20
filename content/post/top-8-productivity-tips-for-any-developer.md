@@ -1,10 +1,8 @@
 ---
 title: "Top 8 Productivity Tips for Any Developer"
 date: 2019-08-21T17:15:00+03:00
-draft: true
+draft: false
 ---
-
-## Top 8 Productivity Principles for Any Developer
 
 ![Headline][Headline]
 

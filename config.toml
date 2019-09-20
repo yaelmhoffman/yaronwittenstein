@@ -1,6 +1,6 @@
 baseURL = "https://yaronwittenstein.com"
 languageCode = "en-us"
-title = "Yaron Wittenstein Site"
+title = "Yaron Wittenstein's Personal Site"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
@@ -15,7 +15,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
     url = "/page/about"
 [[menu.main]]
     name = "Blog"
-    url = "/content/post"
+    url = "/"
 [[menu.main]]
     name = "Newsletter"
     url = "http://read-it-or-throw-it.blogspot.com"
@@ -28,4 +28,4 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
 
 [params]
     mainSections = ["post"]
-    description = "Yaron Wittenstein Personal Site"
+    description = "Yaron Wittenstein's Personal Site"

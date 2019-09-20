@@ -1,10 +1,8 @@
 ---
 title: "The Importance of Unlearning"
 date: 2019-06-27T22:17:31+03:00
-draft: true
+draft: false
 ---
-
-# The Importance of Unlearning
 
 ![Headline][Headline]
 
