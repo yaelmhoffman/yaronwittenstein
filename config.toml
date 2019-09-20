@@ -12,7 +12,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
 
 [[menu.main]]
     name = "About"
-    url = "/page/about"
+    url = "/about"
 [[menu.main]]
     name = "Blog"
     url = "/"
@@ -27,5 +27,5 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
     url = "https://twitter.com/RealWittenstein"
 
 [params]
-    mainSections = ["post"]
+    mainSections = ["post", "page"]
     description = "Yaron Wittenstein's Personal Site"
