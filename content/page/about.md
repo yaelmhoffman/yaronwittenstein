@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2019-09-21T21:26:14+03:00
-draft: true
+draft: false
 ---
 
 Hi,
@@ -10,7 +10,6 @@ I'm Yaron Wittenstein, a Software Developer located in Israel.
 
 My main interests are:
 
-* Distributed Systems
 * Programming Languages
 * Software Architecture
 * Productivity and Knowledge-Management

@@ -19,7 +19,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
 
 [[menu.main]]
     name = "About"
-    url = "/page/about"
+    url = "/about"
     weight = 1
 [[menu.main]]
     name = "Blog"
