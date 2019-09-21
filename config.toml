@@ -6,6 +6,12 @@ googleAnalytics = "UA-148359158-1"
 disqusShortname = ""
 disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
 
+[params]
+    author = "Yaron Wittenstein"
+    mainSections = ["post", "page"]
+    description = "Yaron Wittenstein's Personal Site"
+    favicon = "favicon.ico"
+
 [permalinks]
     post = "/:year/:month/:day/:title/"
     page = "/:title/"
@@ -33,7 +39,3 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
     name = "Twitter"
     url = "https://twitter.com/RealWittenstein"
     weight = 5
-
-[params]
-    mainSections = ["post", "page"]
-    description = "Yaron Wittenstein's Personal Site"

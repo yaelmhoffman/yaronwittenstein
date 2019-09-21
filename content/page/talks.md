@@ -5,20 +5,20 @@ draft: false
 ---
 
 1. [Spacemesh smart contracts research][Spacemesh smart contracts research]
-
-{{< youtube mcvBXQ0SWJM >}}
+<br/>
+{{< youtube mcvBXQ0SWJM 1280 >}}
 <br/>
 1. [MultiRedis - Because One Redis Isn’t Enough][MultiRedis - Because One Redis Isn’t Enough]
-
-{{< youtube jnaKNTYohU4 >}}
+<br/>
+{{< youtube jnaKNTYohU4 1280 >}}
 <br/>
 1. [Redis For Everything][Redis For Everything]
-
-{{< youtube SIUOCKviitw >}}
+<br/>
+{{< youtube SIUOCKviitw 1280 >}}
 <br/>
 1. [How to Increase Your Brain's Cache Hits? (Ignite talk in Hebrew)][How to Increase Your Brain's Cache Hits?]
-
-{{< youtube vAltVK7aMEw >}}
+<br/>
+{{< youtube vAltVK7aMEw 1280 >}}
 
 
 
