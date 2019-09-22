@@ -1,7 +1,8 @@
 ---
 title: "The Importance of Unlearning"
 date: 2019-06-27T22:17:31+03:00
-draft: false
+tags: ["education"]
+type: "post"
 ---
 
 ![Headline][Headline]

@@ -1,7 +1,8 @@
 ---
 title: "Top 8 Productivity Tips for Any Developer"
 date: 2019-08-21T17:15:00+03:00
-draft: false
+tags: ["productivity"]
+type: "post"
 ---
 
 ![Headline][Headline]
@@ -56,8 +57,8 @@ For example: Looking for the time-zone/weather in other parts of the world.
 Many of these repetitive tasks involve a sequence of steps:
 
 * When looking for help at _Stack Overflow_, we need to go to the browser first and make a search via some search-engine.
-Then, we'll select one of the top results which will probably direct us to a  _Stack Overflow_ page, even if we didn't add the term `stackoverflow` explicitly
-to the search itself.
+Then, we'll select one of the top results which will probably direct us to a  _Stack Overflow_ page,
+even if we didn't add the term `stackoverflow` explicitly to the search itself.
 
 * In order to shut down a frozen Operating-System process, we first need to look for its process id (PID) and then execute a kill command.
 (or go to a process explorer GUI, find it there and ask for killing it).

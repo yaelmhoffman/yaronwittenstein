@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2019-09-21T21:26:14+03:00
-draft: false
+type: "about"
 ---
 
 Hi,

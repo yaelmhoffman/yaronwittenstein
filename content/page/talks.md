@@ -1,7 +1,7 @@
 ---
 title: "Talks"
 date: 2019-09-20T23:55:31+03:00
-draft: false
+type: "talks"
 ---
 
 1. [Spacemesh smart contracts research][Spacemesh smart contracts research]
