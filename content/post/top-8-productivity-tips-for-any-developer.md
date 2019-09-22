@@ -18,27 +18,28 @@ Isn't writing a new one is kinda unproductive? &#128521;
 Well, the vast majority of programming productivity articles are very specific.
 Here are some examples of the articles you should expect to find:
 
-* _Must have tools for any Mac Web developer for 2019_
-* _Top 10 tools for any Windows programmer_
-* _Most popular tools for Web Development_
+* Must have tools for any Mac Web developer for 2019
+* Top 10 tools for any Windows programmer
+* Most popular tools for Web Development
 
 <br/>
 I wanted to write an article that will focus on principles before the tools.
 
 </br>
 
-### **New tools come and go frequently. What stays with us are the principles.**
+## **New tools come and go frequently. What stays with us are the principles!**
 
-I've picked, what I believe are the top 8 productivity principles any developer should employ.
+I've found, what I believe are the top 8 productivity principles any developer should employ.
 
-I'll also provide with tools recommendations for Mac since I'm a Mac user. Part of my recommendations run on other Operating-Systems as well.
+I'll also provide with tools recommendations for Mac since I'm a Mac user.
+Several of my recommendations run on other Operating-Systems as well.
 Regardless of my suggestions, applying these principles to other Operating-systems or finding alternative Mac tools should be easy.
 
 Again, what's important is sticking to the principles and not to the tools.
 
 So let's drill down...
-
-
+</br>
+</br>
 ### **Principle #1 - Automating Workflows**
 
 A decent amount of a programmer's time is spent on doing repetitive tasks over and over again.
@@ -46,16 +47,18 @@ A decent amount of a programmer's time is spent on doing repetitive tasks over a
 Here are a fraction of some common scenarios:
 
 * Searching Stack Overflow via Google.
-* Killing an Operating-System process that hangs frozen or just consumes too much memory due to a memory leak.
+* Killing an Operating-System process that hangs or just consumes too much memory due to a memory leak.
 * Clearing the browser cache and refreshing our local http://0.0.0.0:8000 development page.
 
-Part of these examples are non-directly programming tasks but are still indispensable for any professional programmer.
+Part of these examples are non-direct programming tasks but are still indispensable for any professional programmer.
 For example: Looking for the time-zone/weather in other parts of the world.
 
 Many of these repetitive tasks involve a sequence of steps:
 
 * When looking for help at _Stack Overflow_, we need to go to the browser first and make a search via some search-engine.
-Then, we'll select one of the top results which will probably direct us to a  _Stack Overflow_ page, even if we didn't add the term `stackoverflow` explicitly to the search itself.
+Then, we'll select one of the top results which will probably direct us to a  _Stack Overflow_ page, even if we didn't add the term `stackoverflow` explicitly
+to the search itself.
+
 * In order to shut down a frozen Operating-System process, we first need to look for its process id (PID) and then execute a kill command.
 (or go to a process explorer GUI, find it there and ask for killing it).
 
@@ -63,8 +66,8 @@ Then, we'll select one of the top results which will probably direct us to a  _S
 Fortunately, there exist various tools dedicated to automating these manual repetitive actions.
 
 If you're a Mac user then, macOS ships with a tool called [Automator][Automator] that lets you create very complicated workflows.
-I can't say more on that tool since I didn't actually use it. I do use another one-stop-shop productivity tool called [Alfred][Alfred] which I'll mention a few times
-during the course of this article.
+I can't say more on that tool since I didn't actually use it. I use another one-stop-shop productivity tool called [Alfred][Alfred] which I'll mention a few times
+during the course of this piece.
 
 [Alfred][Alfred] is a versatile productivity app for Mac users. It's one of the most popular productivity Mac apps for years, and for a good reason!
 One of the key strengths of Alfred is Workflows.
@@ -345,44 +348,44 @@ Links:
 1. [https://github.com/YaronWittenstein/productivity-tips-for-mac](https://github.com/YaronWittenstein/productivity-tips-for-mac)
 
 
-[Headline]: https://cdn-images-1.medium.com/max/880/1*YmWrbpnaWh-lgUfzCBk_bA.png
+[Headline]: https://miro.medium.com/max/880/0*SHZhejMPJFYc-vzd
 [Automator]: https://support.apple.com/en-gb/guide/automator/welcome/mac
 [IFTTT]: https://ifttt.com/
 [zapier]: https://zapier.com/
 [Alfred]: https://www.alfredapp.com/
-[Alfred Search and Browse]: https://www.alfredapp.com/media/pages/home/search.jpg
-[Alfred Workflow Image]: https://www.alfredapp.com/media/pages/home/workflows-ff4.png
+[Alfred Workflow Image]: https://miro.medium.com/max/720/0*WSpawlEVG4QfapTu
+[Alfred Search and Browse]: https://miro.medium.com/max/594/0*itSuJ8G8toe5wGUa
 [VBA]: https://en.wikipedia.org/wiki/Visual_Basic_for_Applications
 [Dash]: https://kapeli.com/dash
-[Dash image]: https://kapeli.com/img/dash-s2.png
+[Dash image]: https://miro.medium.com/max/1280/0*OCNkvNfsyLZCAez1
 [Dash Alfred Workflow]: https://github.com/Kapeli/Dash-Alfred-Workflow
 [Paw]: https://paw.cloud/
-[Paw image]: https://cdn-static.paw.cloud/img/discover/landing/landing-header-1ac8944e97.png
+[Paw image]: https://miro.medium.com/max/1300/0*K2eo-r9NMlY7WvLu
 [Postman]: https://www.getpostman.com
 [Charles]: https://www.charlesproxy.com/
 [Fiddler]: https://www.telerik.com/fiddler
 [Wireshark]: https://www.wireshark.org
 [Flycut]: https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987
-[Flycut image]: https://i.ytimg.com/vi/9yNW6AOXosA/maxresdefault.jpg
+[Flycut image]: https://miro.medium.com/max/1280/0*7F6_jU2sVlB_uIz8
 [PopClip]: https://apps.apple.com/us/app/popclip/id445189367
 [aText]: https://www.trankynam.com/atext/
-[aText image]: https://www.trankynam.com/atext/screenshots/main_window_variables.png
-[fzf]: https://github.com/junegunn/fzf
-[fzf gif]: https://miro.medium.com/max/770/1*-LuwMJGzvqMUisXF54sPXA.gif
-[fzf.vim]: https://github.com/junegunn/fzf.vim
+[aText image]: https://miro.medium.com/max/915/0*d7XvRHjvJe8Gzgks
 [Grammarly]: https://www.grammarly.com
-[Grammarly image]: https://www.techworld.com/cmsdata/downloads/34374/img3File_thumb800.png
+[Grammarly image]: https://miro.medium.com/max/800/0*x9N5XofCZX36y1n1
+[fzf]: https://github.com/junegunn/fzf
+[fzf gif]: https://miro.medium.com/max/768/0*EXVV-YcIydVzZoy1
+[fzf.vim]: https://github.com/junegunn/fzf.vim
 [GTD]: https://gettingthingsdone.com/
 [Anki]: https://apps.ankiweb.net/
 [SuperMemo]: https://supermemo.com
 [Karabiner]:https://pqrs.org/osx/karabiner/
 [evernote]: https://evernote.com
 [Clear]: https://apps.apple.com/us/app/clear-tasks-reminders-to-do-lists/id504544917
-[Clear image]: http://assets.sbnation.com/assets/1700603/CLEAR_MAC_double_windows.png
+[Clear image]: https://miro.medium.com/max/560/0*pUE_P3T4BRJgDJNw
 [Pocket]: https://getpocket.com/
 [zsh-autosuggestions]: https://github.com/zsh-users/zsh-autosuggestions
 [Octotree]: https://www.octotree.io
 [sourcegraph]: http://sourcegraph.com
 [codestream]: https://www.codestream.com/
 [codemarks]: https://www.codestream.com/codemarks
-[codestream image]: https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/animated/Spatial%20VSC.gif
+[codestream image]: https://miro.medium.com/max/968/0*2DJKHCLV5UBBXiHw.gif
