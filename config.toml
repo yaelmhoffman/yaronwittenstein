@@ -12,11 +12,14 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
     description = "Yaron Wittenstein's Personal Site"
     favicon = "favicon.ico"
 
+[params.logo]
+    url = "logo.png"
+    width = 100
+    height = 100
+
 [permalinks]
     post = "/:year/:month/:day/:title/"
     page = "/:title/"
-
-
 [[menu.main]]
     name = "About"
     url = "/about"
