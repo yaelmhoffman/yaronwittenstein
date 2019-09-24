@@ -14,9 +14,11 @@ My main interests are:
 * Software Architecture
 * Productivity and Knowledge-Management
 
-I work at [spacemesh][spacemesh] on the Smart-Contracts infrastructure.
+I work at [spacemesh][spacemesh] on the Smart-Contracts infrastructure.<br/>
+And I code mostly in Rust (and a bit of Golang and C)
 <br/>
-Currently working on the [svm][svm] project.
+<br/>
+I'm currently working on the [svm][svm] project.
 
 If you'd like to contact me,
 <br/>
