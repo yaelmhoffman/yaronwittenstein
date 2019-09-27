@@ -91,7 +91,10 @@ trigger loading only one page read operation.
 Each program page has an associated hash, called the **page hash**.
 The **page hash** is derived from the contract account address, its page index, and raw content.
 
-![svm-pages][svm-pages]
+![svm-pages-before][svm-pages-before]
+<br/>
+<br/>
+![svm-pages-after][svm-pages-after]
 
 ### Page Cache
 
@@ -183,6 +186,8 @@ Now, the actual contract deployment within a full-node involves:
 * Initializing the **contract state** to **00...00** (all zeros).
 * Setting the initial account balance if stated (defaults to zero).
 
+![svm-deploy][svm-deploy]
+
 
 Now we're ready to start executing Smart Contracts.
 
@@ -212,6 +217,7 @@ The **import object** will be initialized with the **contract address** and **co
 If the **receipt** reported a success, we'll commit all the storage changes to the **contract storage** and compute the new **contract state**.
 Otherwise, we will discard the storage pending changes and remain with the same **contract state**.
 
+![svm-exec][svm-exec]
 
 ## Runtime C-API & Golang binding
 
@@ -226,6 +232,8 @@ to SVM Runtime C-API.
 
 Luckily, [wasmer][wasmer] has a Golang client, [go-ext-wasm][go-ext-wasm] and there is now a [go-ext-wasm spacemesh fork][go-ext-wasm spacemesh]
 that adds that glue layer for SVM needs.
+
+![svm-c-api][svm-c-api]
 
 ...
 
@@ -246,7 +254,8 @@ We'd like to add gradually support for these data-structures:
 * set
 * sorted-set
 
-Each unbounded data-structure will manage its own state. The root **contract storage** will store these data-structures **state** in the same way
+Each unbounded data-structure will manage its own state.
+The root **contract storage** will store these data-structures **state** in the same way
 it stores booleans/integers. It's like having a reference type variable. Since a reference/data-structure state will be of a fixed-size, it can work.
 
 Having these unbounded data-structures adds complexity to the *contract storage** which will have to additionally track changes of each unbounded data-structure.
@@ -366,8 +375,12 @@ We'll also provide [gitcoin][spacemesh gitcoin] bounties :moneybag::moneybag: fo
 [spacemesh contact page]: https://spacemesh.io/contact/
 [svm issues]: https://github.com/spacemeshos/svm/issues
 
-[svm-kv]: ./../images/svm-kv.png
-[svm-contract]: ./../images/svm-contract.png
-[svm-pages]: ./../images/svm-pages.png
-[svm-registers]: ./../images/svm-registers.png
+[svm-kv]: /images/svm-kv.png
+[svm-contract]: /images/svm-contract.png
+[svm-pages-before]: /images/svm-pages-before.png
+[svm-pages-after]: /images/svm-pages-after.png
+[svm-registers]: /images/svm-registers.png
+[svm-deploy]: /images/svm-deploy.png
+[svm-exec]: /images/svm-exec.png
+[svm-c-api]: /images/svm-c-api.png
 
