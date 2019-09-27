@@ -53,18 +53,21 @@ abstraction.
 
 Let's dig a bit deeper...
 
+<br/>
 
 ### Key-value store
 
-A key-value map between a slice of bytes denoting the **key** to another slice of bytes, representing the **value**.
-A key-value is stateless. It isn't aware of any **contract state**. Currently, SVM has **key-value** interfaces for **in-memory** (useful for tests),
+A key-value store maps between a slice of bytes denoting the **key** to another slice of bytes, representing the **value**.
+A key-value store is stateless. It isn't aware of any **contract state**.
+
+Currently, SVM has **key-value** interfaces for **in-memory** (useful for tests),
 **leveldb** and **rocksdb**.
 
 The **key-value store** serves as a companion for other **contract storage** components.
 
 ![svm-kv][svm-kv]
-
-
+<br/>
+<br/>
 ### Pages Storage
 
 In any standard strongly typed programming language, the global variables are known ahead of runtime, during compile-time.
@@ -91,11 +94,6 @@ trigger loading only one page read operation.
 Each program page has an associated hash, called the **page hash**.
 The **page hash** is derived from the contract account address, its page index, and raw content.
 
-![svm-pages-before][svm-pages-before]
-<br/>
-<br/>
-![svm-pages-after][svm-pages-after]
-
 ### Page Cache
 
 The **page cache** is a caching layer on top of **pages storage**. If during a program run we'll ask to load a page more than once, then
@@ -105,6 +103,12 @@ page cache, so we may not really hit the disk physically).
 Once a running program issues a write-operation, we will mark the page as dirty. Committing the dirty pages
 via the **page cache** takes place only after the smart contract finished its running. If the smart contract failed we discard the dirty pages.
 The **page cache** interface isn't accessible to the smart contract code
+
+![svm-pages-before][svm-pages-before]
+<br/>
+<br/>
+![svm-pages-after][svm-pages-after]
+
 
 The smart contract talks directly only to the **page slice cache** which we'll move next to explain.
 
@@ -235,7 +239,6 @@ that adds that glue layer for SVM needs.
 
 ![svm-c-api][svm-c-api]
 
-...
 
 ## Roadmap
 
