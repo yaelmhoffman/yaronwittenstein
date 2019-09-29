@@ -329,7 +329,7 @@ So if you are a Rust developer interested in compilation and programming-languag
 
 [Spacemesh contact page][spacemesh contact page]
 
-or you can send me directly an email: _yaron.wittensten@gmail.com_
+or you can send me directly an email: _yaron.wittenstein@gmail.com_
 
 If you're interested in contributing to SVM, please take a look at the [SVM issues][svm issues] page.
 Please contact us before starting any work, so that we can get on the same page.
