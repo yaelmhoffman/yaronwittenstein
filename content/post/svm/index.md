@@ -65,7 +65,7 @@ Currently, SVM has **key-value** interfaces for **in-memory** (useful for tests)
 
 The **key-value store** serves as a companion for other **contract storage** components.
 
-<img src="kv.png"/>
+![svm-kv][svm-kv]
 <br/>
 <br/>
 ### Pages Storage
@@ -381,14 +381,14 @@ We'll also provide [gitcoin][spacemesh gitcoin] bounties :moneybag::moneybag: fo
 [spacemesh contact page]: https://spacemesh.io/contact/
 [svm issues]: https://github.com/spacemeshos/svm/issues
 
-[svm-kv]: /images/svm-kv.png
-[svm-contract]: /images/svm-contract.png
-[svm-pages-before]: /images/svm-pages-before.png
-[svm-pages-after]: /images/svm-pages-after.png
-[svm-slices-before]: /images/svm-slices-before.png
-[svm-slices-after]: /images/svm-slices-after.png
-[svm-registers]: /images/svm-registers.png
-[svm-deploy]: /images/svm-deploy.png
-[svm-exec]: /images/svm-exec.png
-[svm-c-api]: /images/svm-c-api.png
+[svm-kv]: images/svm-kv.png
+[svm-contract]: images/svm-contract.png
+[svm-pages-before]: images/svm-pages-before.png
+[svm-pages-after]: images/svm-pages-after.png
+[svm-slices-before]: images/svm-slices-before.png
+[svm-slices-after]: images/svm-slices-after.png
+[svm-registers]: images/svm-registers.png
+[svm-deploy]: images/svm-deploy.png
+[svm-exec]: images/svm-exec.png
+[svm-c-api]: images/svm-c-api.png
 
