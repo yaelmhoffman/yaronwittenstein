@@ -268,7 +268,7 @@ Actually, this is a recursive process since an unbounded data-structure may hold
 Say, we have a list of **maps**, or a **map** from **string** to **list**. It means we'll need to traverse first the most internal unbounded data-structures
 and then, each will notify its parent about its new state and so on until it reaches the top level **contract storage** (what we have today).
 
-We need to do more research on how to represent each unbounded data-structure. We may end up having a [MPT][MPT] Ethereum-style for each
+We need to do more research on how to represent each unbounded data-structure. We may end up having a [MPT][mpt] Ethereum-style for each
 such data-structure. Maybe different data-structures will have different methods for managing their states.
 
 
@@ -356,31 +356,30 @@ We also provide [gitcoin][spacemesh gitcoin] bounties :moneybag::moneybag: for c
 * [Creating and working with WebAssembly modules](https://hacks.mozilla.org/2017/02/creating-and-working-with-webassembly-modules/)
 
 
-[SVM]: https://github.com/spacemeshos/svm
-[Spacemesh]: http://spacemesh.io
-[Spacemesh full-node]: https://github.com/spacemeshos/go-spacemesh
-[Spacemesh gitcoin]: https://gitcoin.co/profile/spacemesh
+[svm]: https://github.com/spacemeshos/svm
+[spacemesh]: http://spacemesh.io
+[spacemesh full-node]: https://github.com/spacemeshos/go-spacemesh
+[spacemesh gitcoin]: https://gitcoin.co/profile/spacemesh
 [wasmer]: https://wasmer.io
 [wasmer go client]: https://github.com/spacemeshos/go-ext-wasm
-[Spacemesh smart contracts research]: https://www.youtube.com/watch?v=mcvBXQ0SWJM
-[WebAssembly Imports]: https://webassembly.org/docs/modules/#imports
-[WebAssembly Interface Types]: https://hacks.mozilla.org/2019/08/webassembly-interface-types/
-[RocksDB]: https://rocksdb.org/
+[spacemesh smart contracts research]: https://www.youtube.com/watch?v=mcvBXQ0SWJM
+[webAssembly Imports]: https://webassembly.org/docs/modules/#imports
+[webAssembly Interface Types]: https://hacks.mozilla.org/2019/08/webassembly-interface-types/
 [go-ext-wasm]: https://github.com/wasmerio/go-ext-wasm
 [go-ext-wasm Spacemesh]: https://github.com/spacemeshos/go-ext-wasm
-[MPT]: https://medium.com/codechain/modified-merkle-patricia-trie-how-ethereum-saves-a-state-e6d7555078dd
+[mpt]: https://medium.com/codechain/modified-merkle-patricia-trie-how-ethereum-saves-a-state-e6d7555078dd
 [halting problem]: https://en.wikipedia.org/wiki/Halting_problem
-[Spacemesh contact page]: https://spacemesh.io/contact/
+[spacemesh contact page]: https://spacemesh.io/contact/
 [svm issues]: https://github.com/spacemeshos/svm/issues
 
-[svm-kv]: /images/svm-kv.png
-[svm-contract]: /images/svm-contract.png
-[svm-pages-before]: /images/svm-pages-before.png
-[svm-pages-after]: /images/svm-pages-after.png
-[svm-slices-before]: /images/svm-slices-before.png
-[svm-slices-after]: /images/svm-slices-after.png
-[svm-registers]: /images/svm-registers.png
-[svm-deploy]: /images/svm-deploy.png
-[svm-exec]: /images/svm-exec.png
-[svm-c-api]: /images/svm-c-api.png
+[svm-kv]: images/svm-kv.png
+[svm-contract]: images/svm-contract.png
+[svm-pages-before]: images/svm-pages-before.png
+[svm-pages-after]: images/svm-pages-after.png
+[svm-slices-before]: images/svm-slices-before.png
+[svm-slices-after]: images/svm-slices-after.png
+[svm-registers]: images/svm-registers.png
+[svm-deploy]: images/svm-deploy.png
+[svm-exec]: images/svm-exec.png
+[svm-c-api]: images/svm-c-api.png
 
