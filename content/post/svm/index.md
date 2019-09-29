@@ -162,7 +162,7 @@ Currently, the SVM registers settings for each running program consist of:
 
 These numbers are of course subject to change between SVM versions.
 
-Another future initiative we may implement is adding the required registers settings neccesary to run to the contract program metadata.
+Another future initiative we may implement is adding the required registers settings necessary to run to the contract program metadata.
 That way, when we compile a high-level programming language targeted to the SVM flavored WebAssembly (see the [SMESH](#smesh) section later), we'll decide as part of the compilation process how many registers we'd like to have and how many of each type.
 
 ![svm-registers][svm-registers]
@@ -184,7 +184,7 @@ Now, the process for the actual contract deployment within a full-node involves:
 
 * Storing the contract under what we call a **contract store**
 * Creating a new contract account. Its address will be deterministically derived from the **contract deployment** transaction.
-(**author account address**, **author account nonce**, **contract code** etc.)
+(**author account address**, **author account nonce**, **contract code**, etc.)
 * Initializing the **contract state** to **00...00** (all zeros).
 * Setting the initial account balance if stated (defaults to zero).
 
@@ -223,7 +223,7 @@ Otherwise, we discard the storage pending changes and remain with the same **con
 
 ## Runtime C-API & Golang binding
 
-[wasmer][wasmer] and therefore SVM are written in Rust.
+[wasmer][wasmer] and therefore SVM is written in Rust.
 Thankfully Rust has FFI bindings to C ABI. This allows Rust to call C and vice versa.
 We care about C calling Rust functionality. [wasmer][wasmer] comes with its own C-API out of the box.
 SVM has its own FFI API exposed (using the **wasmer c-api** internally).
@@ -266,7 +266,7 @@ matching **page slice**. Only after that, can we perform a batch commit of all t
 
 Actually, this is a recursive process since an unbounded data-structure may hold unbounded data-structures too.
 Say, we have a list of **maps**, or a **map** from **string** to **list**. It means we'll need to traverse first the most internal unbounded data-structures
-and then, each will notify its parent about its new state and so on until it reaches the top level **contract storage** (what we have today).
+and then, each will notify its parent about its new state and so on until it reaches the top-level **contract storage** (what we have today).
 
 We need to do more research on how to represent each unbounded data-structure. We may end up having a [MPT][mpt] Ethereum-style for each
 such data-structure. Maybe different data-structures will have different methods for managing their states.
@@ -307,7 +307,7 @@ I know there is an early-stage work being done on WebAssembly modules interopera
 I can imagine feeding a _wasmer_ module with its dependencies modules in, and compile it natively under one executable unit of code.
 Or maybe instead of having one compiled module, we could tell _wasmer_ when we build the **import object**, that we're interested not only in the predefined runtime vmcalls, but also in the functions that exist in other WebAssembly modules, serving as dependencies. In such a case we could look at programs as importing runtime dynamic vmcalls.
 
-This idea is analagous to having an operating system pre-compiled with built-ins (like system-calls) vs. dynamically loading kernel modules at runtime.
+This idea is analogous to having an operating system pre-compiled with built-ins (like system-calls) vs. dynamically loading kernel modules at runtime.
 
 
 ### SMESH
@@ -325,7 +325,7 @@ Then, we talked about the next steps for SVM and mentioned SMESH, the future hig
 
 In order to fulfill these ambitious goals, we've made room for more people to join.
 
-So if you are a Rust developer interested in compilation and programming-languages please don't be shy and reach out usinfg any of the various communication methods availble, inclusing but not limited to:
+So if you are a Rust developer interested in compilation and programming-languages please don't be shy and reach out using any of the various communication methods available, including but not limited to:
 
 [Spacemesh contact page][spacemesh contact page]
 
