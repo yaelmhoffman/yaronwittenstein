@@ -6,7 +6,7 @@ type: "post"
 ---
 
 This blog post intends to give a high-level overview of [Spacemesh's][spacemesh] new [SVM][svm] project and a brief overview of its future.
- <br>
+<br>
 
 What's SVM?
 SVM is an acronym for "Spacmesh Virtual Machine." Under the hood, it is based on [wasmer][wasmer] WebAssembly runtime technology.
@@ -48,7 +48,7 @@ It means that when we do operations on it, we do them with an explicit context. 
 
 The **contract state** is derived from its underlying data, deterministically of course. More on in the continuation of this article.
 
-The **contract storage** abstractions can be viewed hierarchically, when `kv` being the most low-level abstraction and **page slice cache** the most high-level
+The **contract storage** abstractions can be viewed hierarchically, when **kv** being the most low-level abstraction and **page slice cache** the most high-level
 abstraction.
 
 Let's dig a bit deeper...
@@ -65,7 +65,7 @@ Currently, SVM has **key-value** interfaces for **in-memory** (useful for tests)
 
 The **key-value store** serves as a companion for other **contract storage** components.
 
-![svm-kv][svm-kv]
+<img src="kv.png"/>
 <br/>
 <br/>
 ### Pages Storage
@@ -213,9 +213,8 @@ A smart contract execution transaction will contain:
 The Runtime will:
 
 * Load the contract WebAssembly code from the **contract store**
-* Compile it to native code, called a**WebAssembly module** - thank you [wasmer][wasmer]!
-* Create a WebAssembly **import object** with all SVM built-in vmcalls (storage/register/full-node)
-
+* Compile it to native code, called a **WebAssembly module** - thank you [wasmer][wasmer]!
+* Create a WebAssembly **import object** with all SVM built-in vmcalls (storage/register/full-node.
 The **import object** will be initialized with the **contract address** and **contract state** provided by the full-node.
 
 * Instantiate a new SVM instance, meaning instantiate a [wasmer][wasmer] instance, with the crafted **import object**.
@@ -333,7 +332,7 @@ I've given a talk about the motivation for having SMESH [here][Spacemesh smart c
 In this article, we've reviewed the work being done so far for **SVM - Spacemesh Virtual Machine**, and the motivation behind it.
 Then, we've talked about the next steps for SVM and mentioned SMESH, the future high-level programming-language that will compile to SVM WebAssembly code.
 
-In order to fulfill these ambitious goals, we've made room for more people to join...
+In order to fulfill these ambitious goals, we've made room for more people to join :wink:
 
 So if you're a Rust developer interested in compilation and programming-languages please don't shy away...
 

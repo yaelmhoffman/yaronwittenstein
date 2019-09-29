@@ -5,6 +5,7 @@ theme = "hugo-lithium-theme"
 googleAnalytics = "UA-148359158-1"
 disqusShortname = ""
 disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
+enableEmoji = true
 
 [params]
     author = "Yaron Wittenstein"
