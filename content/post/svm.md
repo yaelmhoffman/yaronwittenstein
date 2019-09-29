@@ -138,6 +138,10 @@ Then we'll mark the **page slice** as dirty. When committing smart contract chan
 commit only the dirty **page slices** which will translate to committing the associated dirty pages. Then we'll compute the new **page hash**
 for each committed dirty page and calculate the new **contract state**, returning it as part of the **execution receipt**.
 
+![svm-slices-before][svm-slices-before]
+<br/>
+<br/>
+![svm-slices-after][svm-slices-after]
 
 ### SVM Registers
 
@@ -329,7 +333,7 @@ I've given a talk about the motivation for having SMESH [here][Spacemesh smart c
 In this article, we've reviewed the work being done so far for **SVM - Spacemesh Virtual Machine**, and the motivation behind it.
 Then, we've talked about the next steps for SVM and mentioned SMESH, the future high-level programming-language that will compile to SVM WebAssembly code.
 
-In order to fulfill these ambitious goals, we've made room for more people :wink:
+In order to fulfill these ambitious goals, we've made room for more people to join...
 
 So if you're a Rust developer interested in compilation and programming-languages please don't shy away...
 
@@ -382,6 +386,8 @@ We'll also provide [gitcoin][spacemesh gitcoin] bounties :moneybag::moneybag: fo
 [svm-contract]: /images/svm-contract.png
 [svm-pages-before]: /images/svm-pages-before.png
 [svm-pages-after]: /images/svm-pages-after.png
+[svm-slices-before]: /images/svm-slices-before.png
+[svm-slices-after]: /images/svm-slices-after.png
 [svm-registers]: /images/svm-registers.png
 [svm-deploy]: /images/svm-deploy.png
 [svm-exec]: /images/svm-exec.png
