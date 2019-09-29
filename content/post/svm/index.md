@@ -286,7 +286,7 @@ In all the rest of cases, we do want the option to explicitly call another contr
 There is more info about the using dependencies here: [Code Reuse](#code-reuse).
 
 
-#### Structured Events with expiration
+### Structured Events with expiration
 
 We want to be able to add structured events for easier searching and we'd like to set an expiration on them in order to save disk space.
 If a program desires permanent events, the solution is to use a general **contract storage** variable.
