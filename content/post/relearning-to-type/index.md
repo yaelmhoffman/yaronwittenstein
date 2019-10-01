@@ -77,17 +77,35 @@ I wanted a gradual process.
 I couldn't slow down significantly my productivity.
 <br/><br/>
 ## The How?
-The plan I came up with was to practice Colemak a couple of minutes on a daily basis and when I'll feel ready I'll do the swap.
+The plan I came up with was to practice Colemak a couple of minutes on a daily basis and when I'll feel ready I'll swap.
 
-I've Googled for a Typing Training app with Colemak support and found [Type Fu][Type Fu].
-I highly recommend this app. I've started working through the lesson. Each lesson adds a new element to practice.
+I've Googled for a Typing Training app coming with Colemak support and found [Type Fu][Type Fu].
+I highly recommend this app. I've started working through the lessons.
+Each lesson adds a new element to practice, building on top of previous lessons.
 
-After a period of 9 months, practicing on-and-off it suddenly struck me that my QWERTY typing started to deteriorate.
+After about 9 months, practicing on-and-off it suddenly struck to me that my QWERTY typing started to deteriorate.
 The problem was that I wasn't yet fluent with Colemak either. You could imagine how frustrating this can feel.
-It's like feeling in the midst of nowhere.
+It's like being in the middle of nowhere.
 
-When that crisis popped-up I was in the middle of reading a book called [Ultralearning][Ultralearning Book Site] in my spare time.
+When that crisis popped-up I was reading half-way through reading a book called [Ultralearning][Ultralearning Book Site] in my spare time.
+This book is thought-provocative regarding how to learn more efficiently in less time. One of the techniques discussed at the book are going cold-turkey
+and embracing the accompanied frustrations when facing hurdles. This book definitely gave me sort of officious confirmation that it's the time to discard QWERTY
+and start working only Colemak. The other option was to give up the Colemak training and to strengthen my QWERTY again. That alternative was out of question.
+I knew it's now or never.
+<br/>
+As for the [Ultralearning][Ultralearning Book Site] book, I won't say more in this post but to encourage you go and read it!
 
+### Making the swap
+
+### The 1st day
+
+### The 2nd day
+
+### The 3rd day
+
+### The first 2 weeks
+
+### The first month
 
 
 ## What about vim?
@@ -102,8 +120,13 @@ taking challenges
 
 
 ## References
-
-
+* [QWERTY][QWERTY]
+* [Colemak][Colemak Site]
+* [The Importance of Unlearning][The Importance of Unlearning]
+* [Type Fu][Type Fu]
+* [typeracer][typeracer]
+* [Ultralearning Book][Ultralearning Book Site]
+* [RSI][RSI]
 
 
 [Headline]: https://www.typingclub.com/m/pub/images/tpc-right-left.png
@@ -124,3 +147,4 @@ taking challenges
 [Colemak Keyboard Cover Amazon]: https://www.amazon.com/Colemak-Keyboard-Cover-MacBook-Touch/dp/B01NC18J98/
 [Colemak Keyboard Stickers]: https://keyshorts.com/products/colemak-bilingual-keyboard-sticker
 [Learn-Unlearn-Relearn]: http://www.how-matters.org/wp-content/uploads/2017/01/relearn.png
+[The Importance of Unlearning]: https://gryphon.dev/2019/06/27/the-importance-of-unlearning/
