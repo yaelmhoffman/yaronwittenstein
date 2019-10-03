@@ -10,7 +10,7 @@ This blog post intends to give a high-level overview of [Spacemesh's][spacemesh]
 
 What is SVM?
 SVM is an acronym for "Spacmesh Virtual Machine." Under the hood, it is based on [wasmer][wasmer] WebAssembly runtime technology.
-This article assumes basic knowledge about what WebAssembly is, and related concepts like: _host, module, import object, instance_.
+This article assumes basic knowledge about what WebAssembly is, and related concepts like: _host, module, import object, instance_. This is a test.
 
 If you're not familiar with these, I highly recommend reading some of the links under [WebAssembly Articles](#webassembly-articles) at the end of this post.
 
